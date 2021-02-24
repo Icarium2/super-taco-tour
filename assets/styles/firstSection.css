@@ -1,0 +1,36 @@
+.firstView {
+  display: flex;
+  background-color: var(--green);
+  height: 90vh;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstTextContainer h3 {
+  color: var(--light-pink);
+  font-weight: normal;
+  font-size: 20px;
+}
+.firstTextContainer h1 {
+  color: var(--yellow);
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.firstImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  flex-direction: flex-end;
+  padding-top: 5vh;
+  margin-bottom: 0;
+}
+
+.firstImageContainer img {
+  object-fit: fill;
+  display: flex;
+  height: 270px;
+}

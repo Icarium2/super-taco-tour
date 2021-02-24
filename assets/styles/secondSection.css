@@ -1,0 +1,9 @@
+.secondView {
+  display: flex;
+  background-color: var(--pink);
+  height: 90vh;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
