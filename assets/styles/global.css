@@ -3,7 +3,9 @@
   --pink: #df6d7d;
   --yellow: #ffe300;
   --green: #5fae99;
+  --cursive: "Pacifico", cursive;
 }
+
 body {
   padding: 0;
   margin: 0;
