@@ -8,7 +8,6 @@
   justify-content: space-evenly;
 }
 .firstTextContainer {
-  top: 5vh;
 }
 
 .firstTextContainer h3 {
@@ -33,7 +32,6 @@
 }
 
 .firstImageContainer img {
-  object-fit: fill;
   display: flex;
-  height: 270px;
+  height: 275px;
 }
