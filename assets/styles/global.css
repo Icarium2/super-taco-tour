@@ -1,13 +1,13 @@
 :root {
-  --light-pink: #f2d6c3;
-  --pink: #df6d7d;
-  --yellow: #ffe300;
-  --green: #5fae99;
+  --purple: #7072a2;
+  --pink: #d67cb0;
+  --yellow: #f6c253;
+  --green: #46bcad;
   --cursive: "Pacifico", cursive;
 }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: "Lilita One", cursive;
+  font-family: "Truculenta", sans-serif;
 }

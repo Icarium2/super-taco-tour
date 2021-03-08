@@ -9,11 +9,12 @@
   justify-content: center;
   position: fixed;
   top: 0%;
-  z-index: 1;
+  z-index: 20;
+  margin-bottom: 10px;
 }
 
-.topOfPage h1 {
-  display: flex;
-  font-weight: normal;
-  color: var(--light-pink);
+.topOfPage img {
+  height: 70px;
+  width: 70px;
+  color: white;
 }
