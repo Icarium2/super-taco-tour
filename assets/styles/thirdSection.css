@@ -1,44 +1,49 @@
 .thirdView {
   display: flex;
-  background-color: var(--yellow);
+  background-color: var(--green);
   height: 90vh;
   max-width: 100%;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.registerText {
-  padding-left: 20vw;
-  padding-right: 20vw;
-  padding-top: 5vh;
-}
-.registerText h1 {
-  color: var(--pink);
-  font-family: var(--cursive);
-  font-weight: normal;
-  font-size: 2rem;
-}
-
-.placeholderBox {
+.thirdContentContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--pink);
-  height: 300px;
-  width: 300px;
-  margin-bottom: 5vh;
+  flex-direction: column;
 }
 
-.registerBtnContainer {
-  display: flex;
+.whenText h1,
+.whereText h1 {
+  padding-left: 45vw;
+  font-weight: bold;
+  font-family: var(--cursive);
+  font-size: 30px;
+  text-shadow: 2px 2px rgb(9, 47, 32);
 }
 
-.registerBtn {
-  background-color: var(--green);
-  color: white;
-  box-shadow: none;
-  border-width: 0px;
-  height: 35px;
-  width: 120px;
-  border-radius: 95px;
+.whenText h1 {
+  color: var(--yellow);
+}
+
+.whereText h1 {
+  color: #e86581;
+}
+
+.whenText p,
+.whereText p {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  text-shadow: 0.5px 0.5px rgb(24, 49, 24);
+}
+
+.thirdContentContainer img {
+  height: 30vh;
+  width: 100vw;
+  bottom: 0%;
 }
