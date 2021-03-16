@@ -1,3 +1,4 @@
+/*The fixed top bar with the logo */
 .topOfPage {
   display: flex;
   width: 100%;
@@ -9,10 +10,11 @@
   justify-content: center;
   position: fixed;
   top: 0%;
-  z-index: 20;
   margin-bottom: 10px;
+  z-index: 400000000000000000000000000000;
 }
 
+/*Logo*/
 .topOfPage img {
   height: 70px;
   width: 70px;

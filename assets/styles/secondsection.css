@@ -1,0 +1,98 @@
+/* Layout for the second view */
+.secondView {
+  display: flex;
+  background-color: var(--pink);
+  height: 90vh;
+  max-width: 100%;
+  flex-direction: row-reverse;
+}
+
+.secondTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.secondImageContainer img {
+  height: 90vh;
+  opacity: 80%;
+}
+
+.secondView h2 {
+  color: yellow;
+  font-family: var(--cursive);
+  font-size: 90px;
+  font-weight: lighter;
+  text-shadow: 3px 3px #531838;
+}
+.secondView p {
+  color: white;
+  font-weight: bolder;
+  font-size: 45px;
+}
+.secondImageContainerForMobile {
+  display: none;
+}
+/* Media queries to modify proportions dependant on screen resolution */
+/* 1555px */
+@media screen and (max-width: 1555px) {
+  .secondView p {
+    font-size: 30px;
+  }
+
+  .secondView h2 {
+    font-size: 70px;
+  }
+}
+/* 1320px */
+@media screen and (max-width: 1320px) {
+  .secondView p {
+    font-size: 20px;
+  }
+
+  .secondView h2 {
+    font-size: 60px;
+  }
+}
+/* 1550px */
+@media screen and (max-width: 1150px) {
+  .secondView p {
+    font-size: 20px;
+  }
+
+  .secondView h2 {
+    font-size: 50px;
+  }
+
+  .secondImage {
+    max-width: 50vw;
+  }
+  .secondTextContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+/* 780px */
+@media screen and (max-width: 780px) {
+  .secondView h2 {
+    font-size: 40px;
+  }
+}
+/* 660px */
+@media screen and (max-width: 660px) {
+  .secondView {
+    flex-direction: column;
+    max-width: 100vw;
+  }
+  .secondImageContainerForMobile {
+    display: contents;
+    max-width: 100%;
+    height: 600px;
+  }
+  .secondImageContainer {
+    display: none;
+  }
+}

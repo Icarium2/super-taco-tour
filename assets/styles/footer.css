@@ -1,0 +1,28 @@
+.footerContainer {
+  background-color: var(--green);
+  bottom: 0%;
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials img {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.footerContainer p {
+  color: white;
+}
