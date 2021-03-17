@@ -36,7 +36,7 @@
   text-shadow: 2px 2px rgb(58, 9, 35);
 }
 .gridContainer img {
-  transition: 0.8s;
+  transition: 1.2s;
 }
 .gridContainer img:hover {
   transform: scale(1.05);
