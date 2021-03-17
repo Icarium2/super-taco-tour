@@ -33,6 +33,8 @@ background image for the first view */
   display: flex;
   flex-direction: column;
   padding: 0;
+  justify-content: center;
+  align-items: center;
 }
 .introduction h1 {
   margin: 0;
@@ -40,9 +42,7 @@ background image for the first view */
   font-size: 120px;
   text-shadow: 3px 3px #2f2a2d;
   font-weight: bolder;
-}
-.monarkin {
-  padding-left: 9%;
+  padding: 0;
 }
 
 .introduction h2 {
