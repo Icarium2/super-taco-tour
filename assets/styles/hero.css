@@ -113,7 +113,7 @@ background image for the first view */
   }
   .pinkBox {
     background-color: #dc00be99;
-    width: 380px;
+    width: 365px;
     height: 200px;
     display: flex;
     flex-direction: column;
