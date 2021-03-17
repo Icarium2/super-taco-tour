@@ -111,4 +111,14 @@ background image for the first view */
   .introduction h2 {
     font-size: 25px;
   }
+  .pinkBox {
+    background-color: #dc00be99;
+    width: 380px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
 }

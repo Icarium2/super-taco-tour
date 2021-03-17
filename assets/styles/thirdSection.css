@@ -39,6 +39,7 @@
   color: white;
   font-weight: bold;
   font-size: 30px;
+  text-shadow: 2px 2px rgb(58, 9, 35);
 }
 
 .grid3 {
@@ -59,6 +60,7 @@
   color: white;
   font-weight: bold;
   font-size: 30px;
+  text-shadow: 1.5px 1.5px rgb(25, 54, 52);
 }
 
 .grid6 {
@@ -79,6 +81,7 @@
   color: white;
   font-weight: bold;
   font-size: 30px;
+  text-shadow: 1.5px 1.5px rgb(47, 20, 49);
 }
 .grid8 {
   display: flex;
@@ -98,4 +101,14 @@
   color: white;
   font-weight: bold;
   font-size: 30px;
+  text-shadow: 1.5px 1.5px rgb(73, 59, 34);
+}
+
+@media screen and (max-width: 660px) {
+  .grid5 {
+    grid-row: 6;
+  }
+  .grid7 {
+    grid-row: 8;
+  }
 }
