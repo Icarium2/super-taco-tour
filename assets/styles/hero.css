@@ -7,7 +7,9 @@ background image for the first view */
   width: 100%;
   flex-direction: column;
   align-items: center;
-  background-image: url(/assets/images/tacotest6.jpg);
+  background-image: linear-gradient(0deg, #77666686 30%, #85858588 100%),
+    url(/assets/images/tacotest6.jpg);
+
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -26,8 +28,11 @@ background image for the first view */
 
 .pinkBox {
   background-color: #dc00be;
-  width: 500px;
+  width: 550px;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
 .introduction h1 {
   margin: 0;
@@ -36,10 +41,13 @@ background image for the first view */
   text-shadow: 3px 3px #2f2a2d;
   font-weight: bolder;
 }
+.monarkin {
+  padding-left: 9%;
+}
 
 .introduction h2 {
   font-family: var(--cursive);
-  color: #d60ca9;
+  color: #ffffff;
   font-weight: normal;
   font-size: 50px;
   text-shadow: 3px 3px #2f2a2d;
@@ -63,9 +71,9 @@ background image for the first view */
 
 /* CTA button */
 .signUp {
-  background-color: white;
+  background-color: var(--pink);
   border: none;
-  color: #dc00be;
+  color: white;
   padding: 12px 25px;
   text-align: center;
   text-decoration: none;
