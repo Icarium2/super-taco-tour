@@ -8,7 +8,7 @@ background image for the first view */
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(0deg, #77666686 30%, #85858588 100%),
-    url(/assets/images/tacotest6.jpg);
+    url(/assets/images/tacotest6.webp);
 
   background-size: cover;
   background-position: center;
@@ -100,7 +100,7 @@ background image for the first view */
 @media screen and (max-width: 600px) {
   .firstView {
     background-image: linear-gradient(0deg, #57434386 80%, #a07d7d88 90%),
-      url(/assets/images/tacomobil.jpg);
+      url(/assets/images/tacomobil.webp);
   }
   .introduction h1 {
     font-size: 80px;
