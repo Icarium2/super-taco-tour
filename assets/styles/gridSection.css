@@ -95,7 +95,7 @@
   font-weight: bold;
   font-family: var(--cursive);
   font-size: 50px;
-  text-shadow: 2px 2px rgb(10, 46, 9);
+  text-shadow: 3px 3px rgb(10, 46, 9);
 }
 .grid6 p {
   color: white;
@@ -133,6 +133,7 @@
   width: 300px;
   margin-top: 10px;
 }
+
 .formContainer label {
   color: var(--purple);
   font-size: 20px;

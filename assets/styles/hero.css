@@ -141,5 +141,6 @@ background image for the first view */
   }
   .callToAction {
     transform: scale(1);
+    background-color: #dc00be;
   }
 }
