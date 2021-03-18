@@ -5,7 +5,8 @@ School project together with IP (Graphics Communications)
 ##
 
 To view the finished product, [Click Here](https://tacothursday.netlify.app).
-To view the project clone the repository to your computer using https://github.com/Icarium2/super-taco-tour.git,or with GitHub desktop if you prefer.
+
+To view the project/code, clone the repository to your computer using https://github.com/Icarium2/super-taco-tour.git, or with GitHub desktop if you prefer that.
 
 ##
 
