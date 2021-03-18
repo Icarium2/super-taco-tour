@@ -1,6 +1,32 @@
-# super-taco-tour
+## super-taco-tour
 
 School project together with IP (Graphics Communications)
+
+##
+
+To view the finished product, [Click Here](https://tacothursday.netlify.app).
+To view the project clone the repository to your computer using https://github.com/Icarium2/super-taco-tour.git,or with GitHub desktop if you prefer.
+
+##
+
+Requirements:
+
+- En unik landningssida som följer det grafisk manéeret.
+- Landningssidan som ska vara responsiv och byggas mobile-first samt följa tillgänglighetstandarden WCAG.
+- Landningssidan ska innehålla minst fem animationer varav en är en in-animation
+  när sidan först visas
+- Landningssidan ska ha ett CTA där besökare kan registrera sig som t.ex. ett
+  formulär. Formuläret kan endast visas visuellt
+- Landningssidan ska personifieras via länk som kan skickas ut med query
+  parametrar (https://davidwalsh.name/query-string-javascript). Förslag på minst
+  två sätt att personifiera sajten via länken som t.ex. namn, land, bilder,
+  yrkesgrupp, osv.
+- Landningssidan ska vara byggas statiskt i HTML, CSS och JavaScript.
+- Landningssidan ska från dag ett pushas upp till ett publikt repository på GitHub.
+- Landningssidan ska ladda upp på ett hostingtjänst som t.ex. Netlify, Vercel eller
+  GitHub Pages
+- Landningssidan ska optimeras och ha så hög score som möjligt på
+  https://web.dev/
 
 ## Code Review by [Martin Hansson](https://github.com/Alegherix)
 
