@@ -37,7 +37,9 @@
         </div>
         <h2>invites you to...</h2>
         <h3>Taco Thursday!</h3>
-        <button class="signUp">SÄKRA DIN PLATS!</button>
+        <button class="callToAction">
+          <a href="#grid8">SÄKRA DIN PLATS!</a>
+        </button>
       </div>
     </section>
     <!--Second View-->
@@ -96,13 +98,27 @@
         <div class="grid7">
           <img src="assets/images/paraply.webp" alt="more lovely tacos">
         </div>
-        <div class="grid8">
- <!-- footer -->
-          <h2>Kontakt</h2>
-          <p>+46 123 456 78.</p>
+        <div id="grid8" class="grid8">
+          <h1>Säkra din plats idag!</h1>
+          <form>
+            <div class="formContainer">
+              <label for="name"><b>Name</b></label>
+              <input type="text" 
+              name="name" 
+              id="name" 
+              required>
+              <label for="email"><b>Email</b></label>
+              <input type="email" 
+              name="email" 
+              id="email" 
+              required>
+              <button type="submit" class="submitBtn">Boka</button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
+    <!-- footer -->
     <section class="footerContainer">
       <div class="socials">
         <img src="assets/images/insta.png" alt="instagram icon" />
@@ -113,7 +129,7 @@
       <p>Någon gata</p>
       <p>+46 (0)31 - 123 123 1</p>
     </section>
-<script src="animations.js"></script>
-<script src="personalization.js"></script>
+<script src="/assets/scripts/animations.js"></script>
+<script src="/assets/scripts/app.js"></script>
   </body>
 </html>

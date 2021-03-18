@@ -4,7 +4,14 @@
   width: 100%;
 }
 
-.gridContainer div {
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8 {
   height: 300px;
   height: 45vh;
 }
@@ -90,24 +97,58 @@
   text-shadow: 1.5px 1.5px rgb(47, 20, 49);
 }
 .grid8 {
+  background-color: #f6c25399;
   display: flex;
-  background-color: var(--yellow);
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.grid8 h2 {
-  color: white;
+
+.grid8 h1 {
+  color: var(--pink);
   font-weight: bold;
   font-family: var(--cursive);
-  font-size: 50px;
-  text-shadow: 2px 2px rgb(10, 46, 9);
+  font-size: 40px;
+  text-shadow: 3px 3px rgb(10, 46, 9);
 }
-.grid8 p {
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formContainer input {
+  border: none;
+  height: 25px;
+}
+.formContainer label {
+  color: var(--purple);
+  font-size: 20px;
+}
+
+.submitBtn {
+  margin-top: 20px;
+  background-color: var(--pink);
+  border: none;
   color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
   font-weight: bold;
-  font-size: 30px;
-  text-shadow: 1.5px 1.5px rgb(73, 59, 34);
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 1.5px 1.5px rgb(65, 30, 62);
+  font-family: "Truculenta", sans-serif;
+  text-shadow: 1px 1px rgb(65, 30, 62);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.submitBtn:hover {
+  cursor: pointer;
+  transform: rotate(15deg);
 }
 
 @media screen and (max-width: 660px) {
@@ -116,5 +157,12 @@
   }
   .grid7 {
     grid-row: 8;
+  }
+  .grid8 h1 {
+    color: var(--pink);
+    font-weight: bold;
+    font-family: var(--cursive);
+    font-size: 35px;
+    text-shadow: 3px 3px rgb(10, 46, 9);
   }
 }
