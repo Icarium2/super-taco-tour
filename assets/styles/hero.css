@@ -117,13 +117,13 @@ background image for the first view */
       url(/assets/images/tacomobil.webp);
   }
   .introduction h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .introduction h3 {
     font-size: 70px;
   }
   .introduction h2 {
-    font-size: 46px;
+    font-size: 35px;
   }
   .pinkBox {
     background-color: #dc00be99;

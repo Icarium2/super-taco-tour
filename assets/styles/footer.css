@@ -48,3 +48,9 @@
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 390px) {
+  .textBox p {
+    font-size: 16px;
+  }
+}

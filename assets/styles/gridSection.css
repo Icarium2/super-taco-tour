@@ -171,9 +171,6 @@
     grid-row: 8;
   }
   .grid8 h1 {
-    color: var(--pink);
-    font-weight: bold;
-    font-family: var(--cursive);
     font-size: 40px;
     text-shadow: 1px 1px rgb(39, 38, 18);
   }
