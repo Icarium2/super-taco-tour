@@ -1,17 +1,12 @@
-const getQuery = () => {
-  let queryParam = window.location.search;
-  queryParam = queryParam.replace("?", "");
-  queryParam = queryParam.split("&");
+const welcome = document.querySelector(".firstView h2");
+const formFill = document.querySelectorAll(".formContainer input");
 
-  let queryObject = {};
-  queryParam.forEach((queryParam) => {
-    const splits = queryParam.split("=");
-    queryObject[splits[0]] = splits[1];
-  });
-  return queryObject;
-};
+const queryString = window.location.search;
 
-const queryName = getQuery().name;
-const queryEmail = getQuery().email;
+const urlParams = new URLSearchParams(queryString);
 
-console.log(queryName, queryEmail);
+if (urlParams.has("name", "email")) {
+  welcome.textContent = "välkomnar " + urlParams.get("name") + " till...";
+  formFill[0].value = urlParams.get("name");
+  formFill[1].value = urlParams.get("email");
+}
