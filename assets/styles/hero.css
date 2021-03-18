@@ -7,7 +7,7 @@ background image for the first view */
   width: 100%;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(0deg, #77666686 30%, #85858588 100%),
+  background-image: linear-gradient(0deg, #94939386 30%, #bbbbbb88 70%),
     url(/assets/images/tacotest6.webp);
   background-size: cover;
   background-position: center;
@@ -28,20 +28,26 @@ background image for the first view */
 .pinkBox {
   background-color: #dc00be99;
   width: 550px;
-  height: 300px;
+  height: 250px;
   display: flex;
-  flex-direction: column;
   padding: 0;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.introduction h1 {
-  margin: 0;
+
+.pinkBox h1 {
   color: whitesmoke;
-  font-size: 120px;
+  font-size: 100px;
   text-shadow: 3px 3px #2f2a2d;
-  font-weight: bolder;
-  padding: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .introduction h2 {
@@ -52,14 +58,14 @@ background image for the first view */
   text-shadow: 3px 3px #2f2a2d;
   padding-bottom: 0;
   margin-bottom: 0;
-  padding-top: 25px;
+  padding-top: 20px;
   margin-top: 0;
 }
 
 .introduction h3 {
   color: #f2cd00;
   font-family: var(--cursive);
-  font-size: 80px;
+  font-size: 100px;
   font-weight: lighter;
   text-shadow: 3px 3px #4b3e26;
   padding-bottom: 40px;
@@ -70,7 +76,7 @@ background image for the first view */
 
 /* CTA */
 .callToAction {
-  background-color: var(--pink);
+  background-color: #dc00be99;
   border: none;
   color: white;
   padding: 12px 25px;
@@ -82,8 +88,9 @@ background image for the first view */
   border-radius: 6px 6px 6px 6px;
   box-shadow: 1.5px 1.5px rgb(65, 30, 62);
   font-family: "Truculenta", sans-serif;
-  text-shadow: 1px 1px rgb(65, 30, 62);
+  text-shadow: 2px 2px rgb(65, 30, 62);
   transition: all 0.2s ease-in-out 0.2s;
+  opacity: 99;
 }
 
 .callToAction:hover {
