@@ -1,9 +1,10 @@
+/*Container holding the grid-layout */
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
 }
-
+/*General proportions for the grid-layout */
 .grid1,
 .grid2,
 .grid3,
@@ -15,7 +16,7 @@
   height: 300px;
   height: 45vh;
 }
-
+/* Re-alignment of columns and rows of the grid-layout on narrower screen-widths */
 @media screen and (max-width: 1480px) {
   .gridContainer {
     grid-template-columns: repeat(2, 1fr);
@@ -119,7 +120,7 @@
   font-size: 40px;
   text-shadow: 3px 3px rgb(10, 46, 9);
 }
-
+/* Styling, positioning of the form and it's content */
 .formContainer {
   display: flex;
   align-items: center;
@@ -161,7 +162,7 @@
   cursor: pointer;
   transform: rotate(15deg);
 }
-
+/* Additional re-structuring of the grid-layout on narrower screen-widths to make sure images and text-boxes alternate */
 @media screen and (max-width: 768px) {
   .grid5 {
     grid-row: 6;

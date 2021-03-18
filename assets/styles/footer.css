@@ -1,3 +1,4 @@
+/* General layout and proportions of the footer */
 .footerContainer {
   background-color: var(--green);
   bottom: 0%;
@@ -8,7 +9,7 @@
   flex-direction: column;
   padding-top: 10px;
 }
-
+/*Container holding the social media-icons */
 .socials {
   display: flex;
   flex-direction: row;
@@ -16,7 +17,7 @@
   align-items: center;
   margin-top: 10px;
 }
-
+/*Styling and proportions of the social media-icons */
 .socials img {
   padding-left: 20px;
   padding-right: 20px;
@@ -28,6 +29,7 @@
 .socials img:hover {
   transform: scale(1.3);
 }
+/* Styling and proportions of the container holding the text within the footer */
 .textBox {
   display: flex;
   align-items: center;
