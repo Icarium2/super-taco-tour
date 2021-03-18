@@ -90,7 +90,7 @@ background image for the first view */
   font-weight: bold;
   border-radius: 6px 6px 6px 6px;
   box-shadow: 1.5px 1.5px rgb(65, 30, 62);
-  font-family: "Truculenta", sans-serif;
+  font-family: 'Truculenta', sans-serif;
   text-shadow: 2px 2px rgb(65, 30, 62);
   animation: 2.8s ease-out 0.5s 1 slideInFromLeft;
 }
