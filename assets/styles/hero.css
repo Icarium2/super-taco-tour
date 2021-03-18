@@ -23,6 +23,7 @@ background image for the first view */
   flex-direction: column;
   padding: 0;
   margin: 0;
+  animation: 1s ease-in 0s 1 slideInFromLeft;
 }
 
 .pinkBox {
@@ -38,7 +39,6 @@ background image for the first view */
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
-  animation: 1s ease-in 0s 1 slideInFromLeft;
 }
 
 .pinkBox h1 {
@@ -61,7 +61,6 @@ background image for the first view */
   margin-bottom: 0;
   padding-top: 20px;
   margin-top: 0;
-  animation: 1.5s ease-in 0s 1 slideInFromLeft;
 }
 
 .introduction h3 {
@@ -74,7 +73,6 @@ background image for the first view */
   margin-bottom: 0;
   padding-top: 0;
   margin-top: 0;
-  animation: 2s ease-in 0s 1 slideInFromLeft;
 }
 
 /* CTA */
@@ -93,7 +91,6 @@ background image for the first view */
   font-family: "Truculenta", sans-serif;
   text-shadow: 2px 2px rgb(65, 30, 62);
   transition: all 0.2s ease-in-out 0.2s;
-  animation: 2.5s ease-in 0s 1 slideInFromLeft;
 }
 
 .callToAction:hover {
