@@ -12,3 +12,11 @@ body {
   font-family: "Truculenta", sans-serif;
   max-width: 100vw;
 }
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-250%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
