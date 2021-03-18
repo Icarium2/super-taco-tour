@@ -121,7 +121,9 @@
 
 .formContainer input {
   border: none;
-  height: 25px;
+  height: 35px;
+  width: 300px;
+  margin-top: 10px;
 }
 .formContainer label {
   color: var(--purple);
@@ -164,5 +166,8 @@
     font-family: var(--cursive);
     font-size: 35px;
     text-shadow: 3px 3px rgb(10, 46, 9);
+  }
+  .formContainer button {
+    margin-top: 7px;
   }
 }
