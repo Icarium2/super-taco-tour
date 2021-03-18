@@ -83,7 +83,7 @@
   }
 }
 /* 660px */
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 768px) {
   .secondView {
     flex-direction: column;
     max-width: 100vw;
