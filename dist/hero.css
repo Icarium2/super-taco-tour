@@ -1,0 +1,146 @@
+/* Proportions, positioning and 
+background image for the first view */
+.firstView {
+  display: flex;
+  background-color: var(--green);
+  height: 90vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(0deg, #94939386 30%, #bbbbbb88 70%),
+    url(/assets/images/tacotest6.webp);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+/* Container holding all text-items and the button of the first view */
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pinkBox {
+  background-color: #dc00be99;
+  width: 560px;
+  height: 250px;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-animation: 1s ease-out 0.2s 1 slideInFromLeft;
+          animation: 1s ease-out 0.2s 1 slideInFromLeft;
+}
+
+.pinkBox h1 {
+  color: whitesmoke;
+  font-size: 85px;
+  text-shadow: 3px 3px #2f2a2d;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: normal;
+}
+
+.introduction h2 {
+  font-family: var(--cursive);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 3px 3px #332d18;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  margin-top: 0;
+  -webkit-animation: 1.6s ease-out 0.3s 1 slideInFromLeft;
+          animation: 1.6s ease-out 0.3s 1 slideInFromLeft;
+}
+
+.introduction h3 {
+  color: #f2cd00;
+  font-family: var(--cursive);
+  font-size: 100px;
+  font-weight: lighter;
+  text-shadow: 3px 3px #4b3e26;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  -webkit-animation: 2.2s ease-out 0.4s 1 slideInFromLeft;
+          animation: 2.2s ease-out 0.4s 1 slideInFromLeft;
+}
+
+/* CTA */
+.callToAction {
+  background-color: #dc00be;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 1.5px 1.5px rgb(65, 30, 62);
+  font-family: "Truculenta", sans-serif;
+  text-shadow: 2px 2px rgb(65, 30, 62);
+  -webkit-animation: 2.8s ease-out 0.5s 1 slideInFromLeft;
+          animation: 2.8s ease-out 0.5s 1 slideInFromLeft;
+}
+
+.callToAction:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+.callToAction a {
+  text-decoration: none;
+  color: white;
+}
+/* Responsiveness at > 1150px screen widths */
+@media screen and (max-width: 1150px) {
+  .introduction h1 {
+    font-size: 90px;
+  }
+  .introduction h3 {
+    font-size: 50px;
+  }
+  .introduction h2 {
+    font-size: 30px;
+  }
+}
+/* 768px (Ipad and mobile) */
+@media screen and (max-width: 768px) {
+  .firstView {
+    background-image: linear-gradient(0deg, #57434386 80%, #a07d7d88 90%),
+      url(/assets/images/tacomobil.webp);
+  }
+  .introduction h1 {
+    font-size: 40px;
+  }
+  .introduction h3 {
+    font-size: 60px;
+  }
+  .introduction h2 {
+    font-size: 35px;
+  }
+  .pinkBox {
+    background-color: #dc00be99;
+    width: 340px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .callToAction {
+    font-size: 20px;
+  }
+}
+

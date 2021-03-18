@@ -1,0 +1,23 @@
+/*The fixed top bar with the logo */
+.topOfPage {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: 10vh;
+  border: 1px solid rgb(151, 146, 146);
+  background-color: var(--green);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0%;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+/*Logo*/
+.topOfPage img {
+  height: 70px;
+  width: 70px;
+  color: white;
+}
+
