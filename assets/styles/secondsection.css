@@ -30,7 +30,7 @@
 }
 .secondView p {
   color: white;
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 45px;
   text-shadow: 2px 2px rgb(58, 9, 35);
   margin-top: 0;
@@ -80,10 +80,12 @@
 /* 780px */
 @media screen and (max-width: 780px) {
   .secondView h2 {
-    font-size: 40px;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(58, 9, 35);
   }
   .secondView p {
     text-shadow: 1px 1px rgb(58, 9, 35);
+    padding-bottom: 10px;
   }
 }
 

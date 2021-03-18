@@ -56,7 +56,7 @@
 }
 .grid1 p {
   color: white;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 30px;
   text-shadow: 2px 2px rgb(58, 9, 35);
   margin-top: 0;
@@ -78,7 +78,7 @@
 }
 .grid3 p {
   color: white;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 30px;
   text-shadow: 1.5px 1.5px rgb(25, 54, 52);
   margin-top: 0;
@@ -117,8 +117,8 @@
   color: var(--pink);
   font-weight: bold;
   font-family: var(--cursive);
-  font-size: 40px;
-  text-shadow: 3px 3px rgb(10, 46, 9);
+  font-size: 55px;
+  text-shadow: 3px 3px rgb(51, 50, 16);
 }
 /* Styling, positioning of the form and it's content */
 .formContainer {
@@ -174,10 +174,10 @@
     color: var(--pink);
     font-weight: bold;
     font-family: var(--cursive);
-    font-size: 35px;
-    text-shadow: 3px 3px rgb(10, 46, 9);
+    font-size: 40px;
+    text-shadow: 1px 1px rgb(39, 38, 18);
   }
   .formContainer button {
-    margin-top: 7px;
+    padding-top: 10px;
   }
 }

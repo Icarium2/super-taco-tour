@@ -25,7 +25,7 @@ background image for the first view */
 
 .pinkBox {
   background-color: #dc00be99;
-  width: 550px;
+  width: 560px;
   height: 250px;
   display: flex;
   padding: 0;
@@ -37,20 +37,21 @@ background image for the first view */
 
 .pinkBox h1 {
   color: whitesmoke;
-  font-size: 100px;
+  font-size: 85px;
   text-shadow: 3px 3px #2f2a2d;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+  font-weight: normal;
 }
 
 .introduction h2 {
   font-family: var(--cursive);
   color: #ffffff;
-  font-weight: normal;
-  font-size: 50px;
-  text-shadow: 3px 3px #2f2a2d;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 3px 3px #332d18;
   padding-bottom: 0;
   margin-bottom: 0;
   padding-top: 20px;
@@ -73,7 +74,7 @@ background image for the first view */
 
 /* CTA */
 .callToAction {
-  background-color: #dc00be99;
+  background-color: #dc00be;
   border: none;
   color: white;
   padding: 12px 25px;
@@ -116,13 +117,13 @@ background image for the first view */
       url(/assets/images/tacomobil.webp);
   }
   .introduction h1 {
-    font-size: 70px;
-  }
-  .introduction h3 {
     font-size: 50px;
   }
+  .introduction h3 {
+    font-size: 70px;
+  }
   .introduction h2 {
-    font-size: 25px;
+    font-size: 46px;
   }
   .pinkBox {
     background-color: #dc00be99;
@@ -135,7 +136,6 @@ background image for the first view */
     align-items: center;
   }
   .callToAction {
-    transform: scale(1);
-    background-color: #dc00be;
+    font-size: 20px;
   }
 }
